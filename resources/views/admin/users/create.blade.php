@@ -53,13 +53,13 @@
         
         {!! Form::label('password','Password:') !!}
         
-        {!! Form::text('password', null, ['class'=>'form-control']) !!}
+        {!! Form::password('password', ['class'=>'form-control']) !!}
         
     </div>
 
     <div class="form-group">
         
-        {!! Form::submit('Create Post', ['class'=>'btn btn-primay']) !!}
+        {!! Form::submit('Create User', ['class'=>'btn btn-primary']) !!}
         
     </div>
 
